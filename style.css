@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+    background-color: #f3f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+input, select, button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;}
+button {
+    cursor: pointer;
+    background-color: #0004ff;
+    color: white;
+    box-shadow: 0 4px #999;}
+button:hover {
+    background-color: #000360;}
+button:active {
+    box-shadow: 0 2px;
+    transform: translateY(2px);}
+.js-output {
+    width: 150px;
+    margin: 5px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);}
+.js-history {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 100%;
+    max-width: 300px;
+    height: 150px;
+    overflow-y: auto;
+    font-size: 14px;
+    color: #000000;}
